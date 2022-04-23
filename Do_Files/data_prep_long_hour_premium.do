@@ -117,6 +117,7 @@ qui reghdfe inctot_real hours1990 hours2000 hours2010 if occ2010==`num' & uhrswo
 
 /* Se altera este proceso para que queda más claro y óptimo de realizar - se genera un local en vez de meter todos los números al comienzo del loop y se genera un loop dentro del loop anterior para optimizar el proceso. */
 
+** Se almacena el premium por ocupación a través de un collapse. Se guarda en una nueva base de datos.
 collapse (firstnm) val_1990 se_1990 val_2000 se_2000 val_2010 se_2010, by(occ2010)
 
 
