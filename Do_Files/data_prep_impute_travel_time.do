@@ -1,8 +1,23 @@
-clear all
-global data="C:\Users\alen_su\Dropbox\paper_folder\replication\data"
+*****************************************************
+** Universidad de los Andes - Facultad de Economía **
+** 			      Economía Urbana           	   **
+**												   **
+** 		      Lina María Gómez García              **
+** 			   						               **
+**    Improvements to the Impute Travel Time       **
+**                Generation Do-File               **
+*****************************************************
 
-** NHTS data 1995
-cd $data\travel
+
+
+clear all
+cls
+global data="/Users/linagomez/Documents/Stata/Economia_Urbana/Revision_Codigo_Lina/data"
+
+
+
+** Datos de la National Household Travel Survey 1995:
+cd $data/travel
 
 u nhts, clear
 
