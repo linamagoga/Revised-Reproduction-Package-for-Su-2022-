@@ -4,7 +4,7 @@
 **												   **
 ** 		      Lina María Gómez García              **
 ** 			   						               **
-**      Improvements to the Long Hour Premium      **
+**      Improvements to the Job Distribution       **
 **                Generation Do-File               **
 *****************************************************
 
